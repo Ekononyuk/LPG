@@ -1,0 +1,65 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+body {
+    color: #000;
+    font-family: "tenor sans";
+    font-size: 14px;
+  }
+  
+  .container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  
+
+    /*Шапка сайта*/
+
+.header {
+    padding-top: 46px;
+    background-color: #f1f1f1;
+  }
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 76px;
+  }
+  .header-heading{
+    font-size: 76px;
+    background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 55px;
+  }
+  .header-text{
+    font-size: 24px;
+    padding-bottom: 55px;
+
+  }
+  .nav-list {
+    display: flex;
+    column-gap: 60px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+
+  
+  .nav-link {
+    color: #000;
+  }
+  
+  .nav-link.active {
+    color: #606060;
+  }
+
+  .header-img{
+    width: 710px;
+  }
+  
+  .header-row{
+    display: flex;
+  }
