@@ -23,6 +23,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 76px;
+    
   }
   .header-heading{
     font-family: 'Tenor Sans';
@@ -59,7 +60,7 @@ body {
   font-size: 15px;
  } 
  .nav-list {
-     font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     display: flex;
@@ -69,7 +70,7 @@ body {
     column-gap : 60px;
     font-size: 15px;
     line-height: 18px;
-
+    color: #2F2F2F;
 
     
   }
@@ -84,7 +85,7 @@ body {
 }
   
   .nav-link {
-    
+    color: #000;
   }
   
   .nav-link.active {
