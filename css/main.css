@@ -1,10 +1,8 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&family=Tenor+Sans&display=swap');
 
 body {
     color: #000;
-    font-family: "tenor sans";
-    font-size: 14px;
   }
   
   .container {
@@ -27,38 +25,73 @@ body {
     margin-bottom: 76px;
   }
   .header-heading{
-    font-size: 76px;
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    max-width: 941px;
+    font-size: 45px;
     background: linear-gradient(92.68deg, #2F2F2F 20.01%, #1B6FBB 100.64%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
     padding-bottom: 55px;
+    padding-top: 100px;
   }
   .header-text{
-    font-size: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
     padding-bottom: 55px;
-
-  }
-  .nav-list {
-    display: flex;
-    column-gap: 60px;
+    color: #6B7680;
+ }
+ .header-btn{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  width: 386px;
+  height: 55px;
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #13497A;
+  text-align: center;
+  color: #F3EEEA;
+  font-size: 15px;
+ } 
+ .nav-list {
+     font-family: 'Montserrat';
+    font-style: normal;
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    column-gap : 60px;
     font-size: 15px;
+    line-height: 18px;
+
+
+    
   }
   
-
+.nav-link-btn{
+   width: 130px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid #13497A;
+  border-radius: 50px;
+  align-items: center;
+}
   
   .nav-link {
-    color: #000;
+    
   }
   
   .nav-link.active {
     color: #606060;
   }
 
-  .header-img{
-    width: 710px;
-  }
+
   
   .header-row{
     display: flex;
